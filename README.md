@@ -15,14 +15,14 @@ If you're building or using AI agents, you can now plug our web scraping API dir
         "Authorization:${AUTH_HEADER}"
       ],
       "env": {
-        "AUTH_HEADER": "Bearer <YOUR_API_TOKEN>"
+        "AUTH_HEADER": "Bearer <YOUR_API_KEY>"
       }
     }
   }
 }
 ```
 
-🔐 Just replace <YOUR_API_TOKEN> with your token from our Apify integration. Sign up for your own API token here: https://web.instantapi.ai/#pricing-03-254921
+🔐 Just replace <YOUR_API_KEY> with your API key from InstantAPI.ai. Sign up for your own API key here: https://web.instantapi.ai/#pricing-03-254921
 
 Once connected, your AI agent can automatically invoke any of our scraping endpoints—/scrape, /links, /next, /search—to complete complex web data tasks, without needing any HTML selectors or manual logic.
 
